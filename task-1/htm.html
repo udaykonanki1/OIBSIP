@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title> uday.jarvis</title>
+        <!--COUNTER-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+        <!--END-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    </head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>U P</h1>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="#" class="icon" onclick="DisplayMenu()">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </a>
+            <div class="button">
+            <button>login</button></div>
+            <a href="button">ABOUT</a>
+            <a href="#">TRAVEL</a>
+            <a href="#">CONTACT</a>
+            <a href="#">SOCIAL MEDIA</a>
+        </div>
+    </nav>
+    <script>
+        function DisplayMenu(){
+            var x = document.getElementById("myTopnav");
+            if(x.className === "topnav") {
+                x.className += " responsive";
+            }
+            else{
+                x.className="topnav"
+            }
+        }
+    </script>
+ <div class="top">
+    <div class="loading-box">
+        <div class="loading">Loading</div>
+        <div class="counter">100</div>%
+    </div>
+ <div class="top-photos">
+    <img src="./pexels-aljona-ovtšinnikova-17236943.jpg" alt="" >
+    <img src="./pexels-pavel-danilyuk-8438979.jpg" alt="">
+    <img src="./pexels-juliana-stein-1898555.jpg" alt="">
+</div>
+<center>
+<div class="title">
+    <h1>UDAY PHOTOGRAPY</h1>
+<div class="subtitle">
+    SCROOLL DOWN <br>
+    &#8595;
+</div>
+</center>
+</div>
+ </div>
+
+<div class="travel">
+    <p data-aos="fade-left">
+        Discover our <br>
+        <spam>TRAVEL</spam>sectoin
+    </p>
+</div>
+<center>
+    <p style="font-size: 80px; font-family: 'Monoton',cursive; padding:30px">CONTACT</p>
+    <p style="font-size: 25px;"> UDAYKUMAR.KNANAKI@GMAIL.COM</p> 
+</center>
+
+<center>
+    <div class="socialmedia">
+        <p style="font-size: 80px; font-family: 'Monoton',cursive;  padding:30px"> SOCIAL MEDIA</p>
+<div class="section">
+    <a href="https://www.instagram.com/accounts/login/?hl=en"target="_blank">
+    <div class="container"data-aos="zoom-in">
+      <img src="./insta.jpg" ait="">  </a> 
+    </div>
+    <br>
+    INSTAGRAM
+</div>
+<div class="section">
+    <a href="https://www.linkedin.com/in/udaykumar-konanki-38b229253/"target="_blank">
+    <div class="container"data-aos="zoom-in">
+      <img src="./link.png"></a>
+    <br>
+    LINKEDIN
+</div>
+    </div>
+    <div class="section">
+        <a href="https://www.pinterest.es" target="_blank">
+        <div class="container"data-aos="zoom-in">
+          <img src="./pin.jpeg" ait="">  </a> 
+        </div>
+        <br>
+        PINTEREST
+    </div>
+        </div>
+    </div>   
+</center>
+<div class="about">
+    <center> <h1>ABOUT</h1></center>>
+     <p data-aos="fade-right">
+        <b> Hello! My name is Uday Kumar Konanki, and I'm currently in my third year of pursuing<br>
+            a Bachelor of Technology (B.Tech) degree. At the age of 20, I'm passionate about technology<br>
+             and creativity. Currently, I'm working on an exciting project, creating a website <br>
+             dedicated to photography and travel.<br><br>
+ 
+         I'm studying at Malineni Perumallu Educational Society, where I'm gaining<br>
+          valuable knowledge and skills that are helping me excel in my web development journey.<br>
+           My main tools for building this website are CSS and HTML, as I believe they provide a solid <br>
+           foundation for creating visually appealing and functional web pages.<br><br>
+         
+         Through this project, I hope to showcase my love for photography and travel<br>
+          while also honing my web development skills. It's an exciting journey, and<br>
+         I'm looking forward to sharing my work with the world. Stay tuned for updates on my website project!</b>
+     </p>
+ </div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({duration:1000,});
+  </script>
+
+ <script>
+    $(document).ready(function() {
+        $('.counter').counterUp({
+            delay: 13,
+            time: 1600
+        });
+    });
+</script>       
+</body>    
+</html>
